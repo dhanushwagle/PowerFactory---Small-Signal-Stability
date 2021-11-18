@@ -1,0 +1,38 @@
+
+ Matrix column index; Model name; State variable
+     1    Power Network\G.ElmSym          "speed" 
+     2    Power Network\G.ElmSym          "phi" 
+     3    Power Network\Inf Bus.ElmVac    "phiu" 
+
+ Matrix column index; AC terminal; Voltage variable
+     4    Power Network\HV.ElmTerm              "ur" 
+     5    Power Network\HV.ElmTerm              "ui" 
+     6    Power Network\Infinite Bus.ElmTerm    "ur" 
+     7    Power Network\Infinite Bus.ElmTerm    "ui" 
+     8    Power Network\LV.ElmTerm              "ur" 
+     9    Power Network\LV.ElmTerm              "ui" 
+
+ Matrix column index; Model name; AC current variable
+    10    Power Network\G.ElmSym          "ir:bus1" 
+    11    Power Network\G.ElmSym          "ii:bus1" 
+    12    Power Network\Inf Bus.ElmVac    "ir:bus1" 
+    13    Power Network\Inf Bus.ElmVac    "ii:bus1" 
+
+ Matrix column index; Model name; Output signal
+    14    Power Network\G.ElmSym          "outofstep" 
+    15    Power Network\G.ElmSym          "xme" 
+    16    Power Network\G.ElmSym          "xmt" 
+    17    Power Network\G.ElmSym          "xspeed" 
+    18    Power Network\G.ElmSym          "pgt" 
+    19    Power Network\G.ElmSym          "xphi" 
+    20    Power Network\G.ElmSym          "fe" 
+    21    Power Network\G.ElmSym          "ut" 
+    22    Power Network\G.ElmSym          "utr" 
+    23    Power Network\G.ElmSym          "uti" 
+    24    Power Network\G.ElmSym          "cur1" 
+    25    Power Network\G.ElmSym          "cur1r" 
+    26    Power Network\G.ElmSym          "cur1i" 
+    27    Power Network\G.ElmSym          "P1" 
+    28    Power Network\G.ElmSym          "Q1" 
+    29    Power Network\G.ElmSym          "fipol" 
+    30    Power Network\Inf Bus.ElmVac    "xspeed" 

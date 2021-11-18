@@ -1,0 +1,5 @@
+
+ Matrix column index; Model name; State variable
+     1    Power Network\G.ElmSym          "speed" 
+     2    Power Network\G.ElmSym          "phi" 
+     3    Power Network\Inf Bus.ElmVac    "phiu" 
